@@ -126,7 +126,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.scss */ \"./src/style.scss\");\n\nvar bttn = document.getElementById(\"button\");\nvar form = document.getElementById(\"form\");\nfunction handleForm(event) { event.preventDefault(); }\nform.addEventListener('submit', handleForm);\nbttn.onclick = function () {\n    var text = document.getElementById('textbox').value;\n    console.log(text);\n    document.getElementById('textbox').value = null;\n};\nconsole.log(\"index.ts is working\");\n\n\n//# sourceURL=webpack://new_taskfrontend/./src/index.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.scss */ \"./src/style.scss\");\n\nconsole.log(\"index.ts is working\");\nvar bttn = document.getElementById(\"button\");\nvar form = document.getElementById(\"form\");\nfunction handleForm(event) { event.preventDefault(); }\nform.addEventListener('submit', handleForm);\nbttn.onclick = function () {\n    var text = document.getElementById('textbox').value;\n    console.log(text);\n    document.getElementById('textbox').value = null;\n};\n\n\n//# sourceURL=webpack://new_taskfrontend/./src/index.ts?");
 
 /***/ }),
 
